@@ -9,7 +9,7 @@ export function Footer() {
           <div className="col-span-1">
             <div className="flex items-center space-x-3">
               <GraduationCap className="h-8 w-8 text-indigo-500" />
-              <span className="text-xl font-bold text-white">EduTech Innovators</span>
+              <span className="text-xl font-bold text-white">Triskeledu</span>
             </div>
             <p className="mt-4 text-gray-400">
               Transformando la educación a través de la tecnología
