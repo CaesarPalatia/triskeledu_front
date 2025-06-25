@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, Check, X, Save, User, Users as UsersIcon, Edit2 } from 'lucide-react';
+import { Shield, Check, X, Save, User as UserIcon, Users as UsersIcon, Edit2 } from 'lucide-react';
 import { getUsers, updateUser } from '../../services/users';
 import { User } from '../../types/auth';
 
@@ -175,7 +175,7 @@ export function ConfiguracionPermisos() {
                 setEditingPermissions([]);
               }}
             >
-              <User className="w-4 h-4 mr-2 inline" />
+              <UserIcon className="w-4 h-4 mr-2 inline" />
               Por Usuarios
             </button>
           </div>
